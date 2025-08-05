@@ -6,3 +6,5 @@ services:
       - 3000:3000
     volumes:
       - .:/app
+    environment:
+      - LANG=C.UTF-8
